@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: #1B244A;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.scorecard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scorecard h3 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.points-card {
+  background: black;
+  text-align: center;
+  width: 150px;
+  height: 120px;
+}
+
+.points-card h3 {
+  font-family: 'Cursed Timer ULiL';
+  font-size: 80px;
+  margin-top: 15px;
+  color: #F94F6D;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.button {
+  width: 45px;
+  height: 45px;
+  background-color: #1B244A;
+  border: solid 2px #9AABD8;
+  border-radius: 5px;
+}
+
+.button p {
+  color: #9AABD8;
+  font-family: 'Cursed Timer ULiL';
+}
